@@ -32,10 +32,10 @@ Software requirements:
 Usage: 
 - Clone/download the repo
 - Open Julia in the repo and run the following:
-    include("ReplicationProject.jl")
-    using .ReplicationProject
-    ReplicationProject.set_root_directory("/path/to/rtp/")
-    ReplicationProject.run()
+    - include("ReplicationProject.jl")
+    - using .ReplicationProject
+    - ReplicationProject.set_root_directory("/path/to/rtp/")
+    - ReplicationProject.run()
 
 The script will:
 - Load and transform the .dta files
