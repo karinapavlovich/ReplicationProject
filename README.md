@@ -10,7 +10,7 @@ The original replication package (in Stata) with data can be foound at:
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KSOVSE
 
 Replication Project structure: 
-- TariffAnalysis.jl #Julia module containing all data processing and plotting logic
+- ReplicationProject.jl #Julia module containing all data processing and plotting logic
 - README.md # This file - describes the replication steps
 - data/
     - analysis/ # Raw or pre-processed .dta data files
@@ -32,10 +32,10 @@ Software requirements:
 Usage: 
 - Clone/download the repo
 - Open Julia in the repo and run the following:
-    include("TariffAnalysis.jl")
-    using .TariffAnalysis
-    TariffAnalysis.set_root_directory("/path/to/rtp/")
-    TariffAnalysis.run()
+    include("ReplicationProject.jl")
+    using .ReplicationProject
+    ReplicationProject.set_root_directory("/path/to/rtp/")
+    ReplicationProject.run()
 
 The script will:
 - Load and transform the .dta files
