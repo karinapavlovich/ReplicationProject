@@ -37,6 +37,10 @@ Usage:
     TariffAnalysis.set_root_directory("/path/to/rtp/")
     TariffAnalysis.run()
 
+The script will:
+- Load and transform the .dta files
+- Create wave-specific tariff variables
+- Generate figures in results/main or results/appendix
   
 [![Build Status](https://github.com/karinapavlovich/ReplicationProject.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/karinapavlovich/ReplicationProject.jl/actions/workflows/CI.yml?query=branch%3Amain)
 =======
