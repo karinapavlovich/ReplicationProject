@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # ReplicationProject
 
-Replication-project-The-Return-to-Protectionism-
+Replication project The Return to Protectionism
 
 This project aims to replicate figures on U.S. import/export tariff rates from "The Return to Protectionism"  by Fajgelbaum et al. (2019),
 The Quarterly Journal of Economics, Volume 135, Issue 1, February 2020, Pages 1–55, https://doi.org/10.1093/qje/qjz036
