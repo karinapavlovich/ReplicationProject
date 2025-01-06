@@ -24,10 +24,10 @@ Replication Project structure:
 Software requirements: 
 - Julia (version 1.7 or higher recommended)
 - Packages:
-    DataFrames.jl
-    StatFiles.jl
-    Plots.jl
-    Statistics
+    - DataFrames.jl
+    - StatFiles.jl
+    - Plots.jl
+    - Statistics
 
 Usage: 
 - Clone/download the repo
