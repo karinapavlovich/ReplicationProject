@@ -17,7 +17,7 @@ const DEFAULTS = Dict(
 
 # Set root directory and initialize paths
 function set_root_directory(path::String)
-    DEFAULTS[:root] = "/Users/kyriedoubrovsky/Documents/programming-hw-repl/rtp/"
+    DEFAULTS[:root] = "/Users/path/rtp/"
     DEFAULTS[:code_dir] = joinpath(path, "code/")
     DEFAULTS[:logs_dir] = joinpath(DEFAULTS[:code_dir], "logs/")
     DEFAULTS[:data_dir] = joinpath(path, "data/analysis/")
